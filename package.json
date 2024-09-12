@@ -1,0 +1,32 @@
+{
+  "name": "use-dehydrated-state",
+  "version": "0.2.0-alpha.0",
+  "description": "A simple utility Hook for TanStack Query & Remix",
+  "homepage": "https://github.com/policybook/use-dehydrated-state#readme",
+  "bugs": {
+    "url": "https://github.com/policybook/use-dehydrated-state/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/policybook/use-dehydrated-state"
+  },
+  "author": "plpaquin",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "deepmerge": "^4.3.1"
+  },
+  "devDependencies": {
+    "@remix-run/react": "^2.15.0",
+    "@remix-run/server-runtime": "^2.15.0",
+    "@tanstack/query-core": "^5.62.2",
+    "@types/react": "^18.3.12",
+    "typescript": "^5.7.2"
+  }
+}
